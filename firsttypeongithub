@@ -1,0 +1,18 @@
+def test():
+    a = 'Hello world'
+    b = 2024
+    print(a, b)
+
+
+test()
+
+
+def test_2(name, country, city):
+    print('Hello', name, 'from', country, city)
+
+
+user_name = input('Enter your name ')
+user_country = input('Enter tour country ')
+user_city = input('Enter your city ')
+
+test_2(user_name, user_country, user_city)
